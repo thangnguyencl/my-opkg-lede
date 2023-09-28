@@ -1,0 +1,243 @@
+Package: chinadns-ng
+Version: 2023.03.10-1
+Depends: libc, ipset
+Source: feeds/small/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1680482027
+Maintainer: pexcn <i@pexcn.me>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20008
+Filename: chinadns-ng_2023.03.10-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20792
+SHA256sum: 5b1091f15e7654ff33ac6b92d21e8d70d937f60337ff8f77d459d3ec549289f6
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/small/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1680482027
+Maintainer: ghostmaker
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10749
+Filename: dns2socks_2.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11555
+SHA256sum: adbaffb13641758ec53de7825d3ab5d3c8f4b478a255189631d634260a694270
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/small/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1680482027
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11411
+Filename: dns2tcp_1.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12220
+SHA256sum: c05a5e932c0b252e9155899ecf7461cad89f833a2355041a7a0301921d6544c0
+Description:  utility to convert dns query from udp to tcp
+
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+Source: feeds/small/lua-neturl
+SourceName: lua-neturl
+License: MIT
+Section: lang
+SourceDateEpoch: 1680482027
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 4532
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5316
+SHA256sum: aeb5873371bff9953ad4b66b85a2abde9d0d8ba9a152beed7f63897641f5dc39
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-ssr-plus
+Version: 187-1
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, curl, xray-core, chinadns-ng, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server
+Source: feeds/small/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1680482027
+Architecture: all
+Installed-Size: 271871
+Filename: luci-app-ssr-plus_187-1_all.ipk
+Size: 272016
+SHA256sum: 7dbebba0cad76f49ff3c7c622369ba9b05cdb34a590c996abf9762a180801e57
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 187-1
+Depends: libc, luci-app-ssr-plus
+Source: feeds/small/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+SourceDateEpoch: 1680482027
+Architecture: all
+Installed-Size: 7200
+Filename: luci-i18n-ssr-plus-zh-cn_187-1_all.ipk
+Size: 8049
+SHA256sum: a0d217c643577f20fee1d43e214b4c3e9df19e6e02715808971d488ad86f78f1
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: luci-theme-argonv2
+Version: git-23.093.02027-a1213c7-1
+Depends: libc
+Source: feeds/small/luci-theme-argonv2
+SourceName: luci-theme-argonv2
+Section: luci
+SourceDateEpoch: 1680482027
+Architecture: all
+Installed-Size: 602342
+Filename: luci-theme-argonv2_git-23.093.02027-a1213c7-1_all.ipk
+Size: 603215
+SHA256sum: 4935343dc65180e30abb63fedf07029d01917d1062bd6c609a127a5f35b5b113
+Description:  Argon Theme
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+Source: feeds/small/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1680482027
+Maintainer: lean
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5161
+Filename: microsocks_1.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5936
+SHA256sum: 7c7084bd7611fae8ea6a9dd7d1887c7b7ae22ff6b5a7c0389aa28619c373d77b
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1680482027
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2262
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3024
+SHA256sum: 07ca379bae802984ca6dc9f4c3b6f1be5c419abaf7a5464a593791e494bce6f8
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1680482027
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 59267
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 59992
+SHA256sum: 0e8b944de0442e9e71e4709ff73095f121e6d13844a2d3289e7525bc31c2064f
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1680482027
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53823
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54530
+SHA256sum: 3683d53cd84b4aabf90c5c4791e1f48585f45e6aef3f2b33b28ce28df3d931c8
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1680482027
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 62961
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 63749
+SHA256sum: ca6b87cfdeeabe35ebe252ca116c7bbfbbe9a21ae1bd0ba304158bf59b3177e3
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/small/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1680482027
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27229
+Filename: simple-obfs-client_0.0.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28091
+SHA256sum: f5278888dd8bf073dc3796e4ae5edcd0164f095724582ea89f4256b652a7bfb5
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/small/tcping
+SourceName: tcping
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1680482027
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3308
+Filename: tcping_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3995
+SHA256sum: 3caba0035c71d11adb6e6ad4bbe5e13f5dfffb30b7002ef61aaccff8040be6c0
+Description:  tcping measures the latency of a tcp-connection
+
+Package: xray-core
+Version: 1.8.0-1
+Depends: libc, ca-bundle
+Source: feeds/small/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1680482027
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9188043
+Filename: xray-core_1.8.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9173136
+SHA256sum: 2f30e07456aebfee3ce28b41fabf8b4cad8682ddd7960a18e76ae380d2bef180
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
